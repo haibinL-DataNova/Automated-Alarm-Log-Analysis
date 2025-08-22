@@ -1,0 +1,6 @@
+timestamp,tool_id,alarm_code,severity,message
+2025-01-05T10:15:00Z,ETCH-07,ALM-1256,warning,Heater current drift beyond 3C during 20min run; recipe HTR_200.
+2025-01-05T10:42:00Z,CMP-02,ALM-0902,critical,Unexpected pressure drop below 10kPa; slurry pump stall detected.
+2025-01-05T11:05:00Z,CVD-11,ALM-0311,normal,Door open/close cycle completed; no errors.
+2025-01-05T11:30:00Z,PVD-05,ALM-2231,warning,Wafer misalignment suspected; vision system re-align performed.
+2025-01-05T12:00:00Z,ETCH-03,ALM-1401,critical,Chiller setpoint overshoot >5C; abort run and purge chamber.

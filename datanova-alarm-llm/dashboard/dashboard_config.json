@@ -1,0 +1,30 @@
+{
+  "title": "DataNova Alarm Dashboard",
+  "panels": [
+    {
+      "type": "table",
+      "title": "Recent Alarms",
+      "datasource": "YourDatasource",
+      "gridPos": {
+        "h": 8,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "graph",
+      "title": "Severity over Time",
+      "datasource": "YourDatasource",
+      "gridPos": {
+        "h": 8,
+        "w": 24,
+        "x": 0,
+        "y": 8
+      }
+    }
+  ],
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1
+}
